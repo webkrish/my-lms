@@ -105,6 +105,9 @@
   border-bottom-right-radius: 20px;
   border-top-right-radius: 20px;
 }
+.my-container .my-form .second img {
+  width: 50%;
+}
 .my-container .my-form .second p {
   padding: 15px 0;
 }
