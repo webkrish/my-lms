@@ -17,14 +17,18 @@
   top: 0;
   left: 0;
   right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
   background-color: #fff !important;
   transition: all 0.3s ease-in-out;
 }
 .full-wrap .my-shadow .my-navigation .logo {
+  padding-top: 0;
+  padding-bottom: 0;
   width: 30%;
 }
 .full-wrap .my-shadow .my-navigation .logo img {
-  width: 40%;
+  width: 45%;
 }
 .full-wrap .my-shadow .my-navigation .logo a {
   text-decoration: none;
@@ -103,6 +107,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: #FFFFFF;
+  padding-top: 50px;
 }
 .home .banner .text {
   width: 48%;
@@ -684,6 +689,9 @@ footer .footer .para a:hover {
 }
 
 @media screen and (max-width: 991px) {
+  .full-wrap .my-shadow .my-navigation .logo img {
+    width: 90%;
+  }
   .full-wrap .my-shadow .my-navigation button {
     display: block;
   }
@@ -779,8 +787,8 @@ footer .footer .para a:hover {
   }
 }
 @media screen and (max-width: 576px) {
-  .full-wrap .my-shadow .my-navigation .logo img {
-    width: 30%;
+  .full-wrap .my-shadow {
+    padding: 5px 0;
   }
   .full-wrap .my-shadow .my-navigation .my-nav {
     overflow: hidden;
