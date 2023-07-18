@@ -107,6 +107,7 @@
 }
 .my-container .my-form .second img {
   width: 50%;
+  border-radius: 30px;
 }
 .my-container .my-form .second p {
   padding: 15px 0;
